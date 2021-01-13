@@ -1,17 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
+import "./index.css";
+import React from "react";
+// serve para renderizar na tela
+import ReactDOM from "react-dom";
+import App from './App'
+//render é um método para renderizar na tela (Prim paramentro: oque vai ser renderizado Seg param:qual elemento será)
+// Está renderizando o conteúdo na página oque vai ser renderizado primeiro,depois o elemento onde ele vai ser renderizado
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <App />,
+    document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+                   
