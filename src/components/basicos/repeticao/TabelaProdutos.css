@@ -1,0 +1,8 @@
+.TabelaProdutos table{
+   width: 100%;
+   
+}
+.TabelaProdutos th{
+    background-color: chartreuse;
+    
+ }
